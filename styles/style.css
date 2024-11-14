@@ -1,0 +1,54 @@
+.logo {
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+#carouselExampleFade {
+    margin: 50px;
+}
+
+body {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header {
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+
+.carousel-item {
+    width: 100%;
+}
+
+#center {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.posters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bio {
+    text-align: center;
+}
+
+aside {
+    position: sticky;
+    top: 10%;
+    z-index: 999;
+    margin-left: 20px;
+}
+
+.col-4 {
+    width: max-content;
+}
